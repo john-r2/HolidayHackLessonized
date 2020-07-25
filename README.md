@@ -5,4 +5,6 @@ The topics vary from simple Linux skills to complicated attacks against the infr
 
 Each folder in this repository contains short documents that lead students though HHC challenges.  Each document gives the student the basics they need to progress through that stage of the challenge, and then asks questions that require the students to solve that stage.  The next document begins with the answers to the previous stage, and then moves on to the next part of the challenge.  You can give all the documents to the students at once, and trust that they will honestly attempt to answer the questions in one document before reading the solutions in the next document.  Or, you can hand the documents out one at a time and make the students show you they made at least some progress on their own before you give them the next document.
 
-These challenges are fun and exciting labs for home and classroom work.  They are not good as exams, however; the solutions to all the HHCs are available on the web.  
+These challenges are fun and exciting labs for home and classroom work.  They are not good as exams, however; the solutions to all the HHCs are available on the web.
+
+Alas, I only started "lessonizing" the HHCs in 2017.  However, excellent writeups are available for earlier challenges at https://www.holidayhackchallenge.com/past-challenges/.

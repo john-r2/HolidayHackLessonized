@@ -1,0 +1,208 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Diagnostics.Eventing.Reader.EventLogRecord</T>
+      <T>System.Diagnostics.Eventing.Reader.EventRecord</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>System.Diagnostics.Eventing.Reader.EventLogRecord</ToString>
+    <Props>
+      <I32 N="Id">3</I32>
+      <By N="Version">5</By>
+      <Nil N="Qualifiers" />
+      <By N="Level">4</By>
+      <I32 N="Task">3</I32>
+      <I16 N="Opcode">0</I16>
+      <I64 N="Keywords">-9223372036854775808</I64>
+      <I64 N="RecordId">2194</I64>
+      <S N="ProviderName">Microsoft-Windows-Sysmon</S>
+      <G N="ProviderId">5770385f-c22a-43e0-bf4c-06f5698ffbd9</G>
+      <S N="LogName">Microsoft-Windows-Sysmon/Operational</S>
+      <I32 N="ProcessId">1960</I32>
+      <I32 N="ThreadId">6648</I32>
+      <S N="MachineName">elfuresearch</S>
+      <Obj N="UserId" RefId="1">
+        <TN RefId="1">
+          <T>System.Security.Principal.SecurityIdentifier</T>
+          <T>System.Security.Principal.IdentityReference</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>S-1-5-18</ToString>
+          </Obj>
+        <Props>
+          <I32 N="BinaryLength">12</I32>
+          <Nil N="AccountDomainSid" />
+          <S N="Value">S-1-5-18</S>
+        </Props>
+      </Obj>
+      <DT N="TimeCreated">2019-11-07T09:51:22.6559745-08:00</DT>
+      <Nil N="ActivityId" />
+      <Nil N="RelatedActivityId" />
+      <S N="ContainerLog">microsoft-windows-sysmon/operational</S>
+      <Obj N="MatchedQueryIds" RefId="2">
+        <TN RefId="2">
+          <T>System.UInt32[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST />
+      </Obj>
+      <Obj N="Bookmark" RefId="3">
+        <TN RefId="3">
+          <T>System.Diagnostics.Eventing.Reader.EventBookmark</T>
+          <T>System.Object</T>
+        </TN>
+        <ToString>System.Diagnostics.Eventing.Reader.EventBookmark</ToString>
+      </Obj>
+      <S N="LevelDisplayName">Information</S>
+      <S N="OpcodeDisplayName">Info</S>
+      <S N="TaskDisplayName">Network connection detected (rule: NetworkConnect)</S>
+      <Obj N="KeywordsDisplayNames" RefId="4">
+        <TN RefId="4">
+          <T>System.Collections.ObjectModel.ReadOnlyCollection`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</T>
+          <T>System.Object</T>
+        </TN>
+        <LST />
+      </Obj>
+      <Obj N="Properties" RefId="5">
+        <TN RefId="5">
+          <T>System.Collections.Generic.List`1[[System.Diagnostics.Eventing.Reader.EventProperty, System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <Obj RefId="6">
+            <TN RefId="6">
+              <T>System.Diagnostics.Eventing.Reader.EventProperty</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="7">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">2019-11-07 17:51:21.083</S>
+            </Props>
+          </Obj>
+          <Obj RefId="8">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <G N="Value">ba5c6bbb-4c7a-5dc4-0000-0010f4540100</G>
+            </Props>
+          </Obj>
+          <Obj RefId="9">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <U32 N="Value">1068</U32>
+            </Props>
+          </Obj>
+          <Obj RefId="10">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">C:\Windows\System32\svchost.exe</S>
+            </Props>
+          </Obj>
+          <Obj RefId="11">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">NT AUTHORITY\LOCAL SERVICE</S>
+            </Props>
+          </Obj>
+          <Obj RefId="12">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">udp</S>
+            </Props>
+          </Obj>
+          <Obj RefId="13">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <B N="Value">true</B>
+            </Props>
+          </Obj>
+          <Obj RefId="14">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <B N="Value">false</B>
+            </Props>
+          </Obj>
+          <Obj RefId="15">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">192.168.1.150</S>
+            </Props>
+          </Obj>
+          <Obj RefId="16">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">elfuresearch.localdomain</S>
+            </Props>
+          </Obj>
+          <Obj RefId="17">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <U16 N="Value">123</U16>
+            </Props>
+          </Obj>
+          <Obj RefId="18">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">ntp</S>
+            </Props>
+          </Obj>
+          <Obj RefId="19">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <B N="Value">false</B>
+            </Props>
+          </Obj>
+          <Obj RefId="20">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">13.86.101.172</S>
+            </Props>
+          </Obj>
+          <Obj RefId="21">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value"></S>
+            </Props>
+          </Obj>
+          <Obj RefId="22">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <U16 N="Value">123</U16>
+            </Props>
+          </Obj>
+          <Obj RefId="23">
+            <TNRef RefId="6" />
+            <ToString>System.Diagnostics.Eventing.Reader.EventProperty</ToString>
+            <Props>
+              <S N="Value">ntp</S>
+            </Props>
+          </Obj>
+        </LST>
+      </Obj>
+    </Props>
+    <MS>
+      <S N="Message">Network connection detected:_x000D__x000A_RuleName: _x000D__x000A_UtcTime: 2019-11-07 17:51:21.083_x000D__x000A_ProcessGuid: {BA5C6BBB-4C7A-5DC4-0000-0010F4540100}_x000D__x000A_ProcessId: 1068_x000D__x000A_Image: C:\Windows\System32\svchost.exe_x000D__x000A_User: NT AUTHORITY\LOCAL SERVICE_x000D__x000A_Protocol: udp_x000D__x000A_Initiated: true_x000D__x000A_SourceIsIpv6: false_x000D__x000A_SourceIp: 192.168.1.150_x000D__x000A_SourceHostname: elfuresearch.localdomain_x000D__x000A_SourcePort: 123_x000D__x000A_SourcePortName: ntp_x000D__x000A_DestinationIsIpv6: false_x000D__x000A_DestinationIp: 13.86.101.172_x000D__x000A_DestinationHostname: _x000D__x000A_DestinationPort: 123_x000D__x000A_DestinationPortName: ntp</S>
+    </MS>
+  </Obj>
