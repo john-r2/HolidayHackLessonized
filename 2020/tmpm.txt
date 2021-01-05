@@ -1,0 +1,79 @@
+Ohai! Bushy Evergreen, just trying to get this door open.
+
+It's running some Rust code written by Alabaster Snowball.
+
+That's it! What a great password...
+
+Oh, this might be a good time to mention another lock in the castle.
+
+Santa asked me to ask you to evaluate the security of our new HID lock.
+
+If ever you find yourself in posession of a Proxmark3, click it in your badge to interact with it.
+
+It's a slick device that can read others' badges!
+
+Hey, you want to help me figure out the light switch too? Those come in handy sometimes.
+
+The password we need is in the lights.conf file, but it seems to be encrypted.
+
+There's another instance of the program and configuration in ~/lab/ you can play around with.
+
+What if we set the user name to an encrypted value?
+
+Wow - that worked? I mean, it worked! Hooray for opportunistic decryption, I guess!
+
+Oh, did I mention that the Proxmark can simulate badges? Cool, huh?
+
+There are lots of references online to help.
+
+In fact, there's a talk going on right now!
+
+So hey, if you want, there's one more challenge.
+
+You see, there's a vending machine in there that the speakers like to use sometimes.
+
+Play around with ./vending_machines in the lab folder.
+
+You know what might be worth trying? Delete or rename the config file and run it.
+
+Then you could set the password yourself to AAAAAAAA or BBBBBBBB.
+
+If the encryption is simple code book or rotation ciphers, you'll be able to roll back the original password.
+
+Your lookup table worked - great job! That's one way to defeat a polyalphabetic cipher!
+
+Good luck navigating the rest of the castle.
+
+And that Proxmark thing? Some people scan other people's badges and try those codes at locked doors.
+
+Other people scan one or two and just try to vary room numbers.
+
+Do whatever works best for you!
+
+
+
+"Put it in the cloud," they said...
+
+"It'll be great," they said...
+
+All the lights on the Christmas trees throughout the castle are controlled through a remote server.
+
+We can shuffle the colors of the lights by connecting via dial-up, but our only modem is broken!
+
+Fortunately, I speak dial-up. However, I can't quite remember the handshake sequence.
+
+https://upload.wikimedia.org/wikipedia/commons/3/33/Dial_up_modem_noises.ogg
+
+탢ݵרOُ񆨶$Ԩ؉楌Բ ahem! We did it! Thank you!!
+
+Anytime you feel like changing the color scheme up, just pick up the phone!
+
+You know, Santa really seems to trust Shinny Upatree...
+
+
+#there is an example in the pcaps dir
+ex = rdpcap('pcaps/dns.pcap')
+ex[1].show()
+#then for your packet
+dns.show()
+#compare them side by side

@@ -1,0 +1,78 @@
+Perform a directory listing of your home directory to find a munchkin and retrieve a lollipop!
+elf@bbfa84460562:~$ ls
+
+Now find the munchkin inside the munchkin.
+elf@bbfa84460562:~$ cat munchkin_19315479765589239 
+(strange that grep -i *munchkin* munchkin_19315479765589239  did not work)
+
+Great, now remove the munchkin in your home directory.
+rm munchkin_19315479765589239
+
+Print the present working directory using a command.
+pwd
+
+Good job but it looks like another munchkin hid itself in you home directory. Find the hidden munchkin!
+ls -la
+
+Excellent, now find the munchkin in your command history.
+history
+
+Find the munchkin in your environment variables.
+env
+
+Next, head into the workshop.
+cd workshop
+
+A munchkin is hiding in one of the workshop toolboxes. Use "grep" while ignoring case to find which toolbox the munchkin is in.
+grep -i 'munchkin' *
+
+A munchkin is blocking the lollipop_engine from starting. Run the lollipop_engine binary to retrieve this munchkin.
+elf@bbfa84460562:~/workshop$ ls l*
+lollipop_engine
+elf@bbfa84460562:~/workshop$ chmod +x lollipop_engine 
+elf@bbfa84460562:~/workshop$ ./lollipop_engine 
+munchkin.898906189498077
+
+elf@bbfa84460562:~/workshop$ cd electrical/
+elf@bbfa84460562:~/workshop/electrical$ mv blown_fuse0 fuse0
+
+Now, make a symbolic link (symlink) named fuse1 that points to fuse0
+ln -s fuse0 fuse1
+
+Make a copy of fuse1 named fuse2.
+cp fuse1 fuse2
+
+We need to make sure munchkins don't come back. Add the characters "MUNCHKIN_REPELLENT" into the file fuse2.
+echo "MUNCHKIN_REPELLENT" >> fuse2
+
+Find the munchkin somewhere in /opt/munchkin_den.
+elf@bbfa84460562:/opt/munchkin_den$ find . -iname '*munchkin*'
+
+Find the file somewhere in /opt/munchkin_den that is owned by the user munchkin.
+elf@bbfa84460562:/opt/munchkin_den$ find . -user munchkin
+
+Find the file created by munchkins that is greater than 108 kilobytes and less than 110 kilobytes located somewhere in /opt/munchkin_den.
+ find . -size +108k -size -110k
+
+List running processes to find another munchkin.
+ps aux
+
+The 14516_munchkin process is listening on a tcp port. Use a command to have the only listening port display to the screen.
+elf@bbfa84460562:/opt/munchkin_den$ netstat -nat
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:54321           0.0.0.0:*               LISTEN     
+
+The service listening on port 54321 is an HTTP server. Interact with this server to retrieve the last munchkin.
+elf@bbfa84460562:/opt/munchkin_den$ curl 127.0.0.1:54321
+munchkin.73180338045875elf@bbfa84460562
+
+Your final task is to stop the 14516_munchkin process to collect the remaining lollipops.
+munchkin.73180338045875elf@bbfa84460562:/opt/munchkin_den$ kill 38042
+
+Congratulations, you caught all the munchkins and retrieved all the lollipops!
+Type "exit" to close...
+
+
+
+

@@ -1,0 +1,138 @@
+1.
+elf.moveTo(lollipop[0])
+elf.moveUp(10)
+
+2.
+elf.moveTo(lever[0])
+elf.pull_lever(elf.get_lever(0) + 2)
+elf.moveLeft(4)
+elf.moveUp(12)
+//for some reason, moveTo(lollipop[0]) stopped at Yeeter
+
+3.
+for (i of [0, 1, 2]) {
+  elf.moveTo(lollipop[i])
+}
+elf.moveUp(1)
+//only the for of style works here
+
+4.
+for (i of [0, 1, 2]) {
+  elf.moveLeft(3)
+  elf.moveUp(11)
+  elf.moveLeft(2)
+  elf.moveDown(11)
+}
+//you can move until you hit an obstacle
+//it continues at the next statement
+
+5.
+elf.moveTo(lollipop[1])
+elf.moveTo(lollipop[0])
+var value = elf.ask_munch(0)
+var answer = value.filter(elem => typeof elem == 'number')
+elf.tell_munch(answer)
+elf.moveUp(2)
+
+6a.
+var ans = Object.values(elf.get_lever(0))
+ans.unshift("munchkins rule")
+for (i of [0, 1, 2, 3]) {
+  elf.moveTo(lollipop[i])
+}
+elf.moveTo(lever[0])
+elf.pull_lever(ans)
+elf.moveDown(3)
+elf.moveLeft(6)
+elf.moveUp(2)
+
+6b.
+var req = elf.ask_munch(0)
+var ans = Object.keys(req).find(key => req[key] === "lollipop");
+for (i of [0, 1, 2, 3]) {
+  elf.moveTo(lollipop[i])
+}
+elf.moveTo(munchkin[0])
+elf.tell_munch(ans)
+elf.moveUp(2)
+
+//munckin test
+{
+    "2ghd3":327,
+    "pwmcojfd":23,
+    "ivntirc":"asjkdhfg",
+    "qpwo":76,
+    "szixuchv":"lollipop",
+    "aiusywt":4,
+    "xmzxcv":"sdfhj",
+}
+
+7.
+//ugly but it works
+function sumarr(arrs){
+  var arsum = 0
+  arrs.forEach(rmjunk);
+  function rmjunk(ar){
+    ar = ar.filter(elem => typeof elem == 'number')
+    arsum += ar.reduce((a, b) => a + b, 0)
+   }
+ return arsum
+}
+
+function lever(x){
+  elf.pull_lever(x)
+  return
+}
+for (i of [0, 4]) {
+  elf.moveDown(i + 1);
+  lever(i);
+  elf.moveLeft(i + 2);
+  lever(i + 1);
+  elf.moveUp(i + 3);
+  lever(i + 2);
+  elf.moveRight(i + 4);
+  lever(i + 3);
+}
+elf.moveUp(2)
+elf.moveLeft(4)
+elf.tell_munch(sumarr)
+elf.moveUp(2)
+
+//minified version
+function sumarr(e){return arsum=0,e.forEach(function(e){e=e.filter(e=>"number"==typeof e),arsum+=e.reduce((e,l)=>e+l,0)}),arsum}function lever(e){elf.pull_lever(e)}for(i of[0,4])elf.moveDown(i+1),lever(i),elf.moveLeft(i+2),lever(i+1),elf.moveUp(i+3),lever(i+2),elf.moveRight(i+4),lever(i+3);elf.moveUp(2),elf.moveLeft(4),elf.tell_munch(sumarr),elf.moveUp(2);
+
+8.
+function lever(sum, leverNum) {
+  sum += elf.get_lever(leverNum)
+  elf.pull_lever(sum)
+  return sum
+}
+function lpop(test) {
+  for (d of test){
+    ans = Object.keys(d).find(key => d[key] === "lollipop") 
+    if (ans !== undefined){
+        y = ans
+        }
+    }
+  return y
+}  
+num = 0
+for (i of [0, 1, 2]) {
+  elf.moveRight(4 * i + 1)
+  num = lever(num, 2 * i)
+  elf.moveUp(2)
+  elf.moveLeft(4 * i + 3)
+  num = lever(num, 2 * i + 1)
+  elf.moveUp(2)
+}
+elf.tell_munch(lpop)
+elf.moveRight(12)
+
+//test for munch
+test = [
+    {"qpwo":76,"szixuchv":"lollipop","aiusywt":4,"xmzxcv":"sdfhj"},
+    {"aklgr":234,"yuigwer":"qwuieyr","xcmvp":21},
+    {"qopwue":"aosdfh","szixuchv":45,"hfas":35,"qiowphq":2,"zxc":"bgqwuygfvq"},
+    {"zxcvzkj":"azga","wieyr":36},
+]
+

