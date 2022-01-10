@@ -1,0 +1,1 @@
+These units are designed for beginners and for use in classrooms.  The 2021 Kringlecon covered an amazing variety of InfoSec topics.  The chart of skills to objective is in Skills.xlsx.  Also check out Notes to instructors.docx.  Please give these a try--it's fun!
