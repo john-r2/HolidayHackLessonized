@@ -1,1 +1,3 @@
-These units are designed for beginners and for use in classrooms.  The 2021 Kringlecon covered an amazing variety of InfoSec topics.  The chart of skills to objective is in Skills.xlsx.  Also check out Notes to instructors.docx.  Please give these a try--it's fun!
+These units are designed for beginners and for use in classrooms.  The 2021 Kringlecon covered an amazing variety of InfoSec topics.  The mapping of skills to objectives is in Skills.xlsx.  Also check out Notes to instructors.docx.  Please give these a try--it's fun!
+
+I've found that my technique of compressing all the answer sections does not work well for Apple products.  It also does not work when Word gives you the Protected View banner (files from the Internet can contain viruses).  To get the answer sections to compress, you have to Enable Editing and save the file.  Or, you can download the zip files which should bypass the Internet setting.
